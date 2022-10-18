@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+.info_restaurant {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 90%;
+  max-width: 850px;
+  padding: 10px 20px;
+  background-color: #9fbfb3;
+}
+
+article {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.containerInfo {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+}
+
+.mapContainer {
+  width: 350px;
+  min-height: 300px;
+  background-color: #fefef2;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .9em;
+  color: #212222;
+  font-style: italic;
+}
+
+.redesContainer li {
+  list-style: none;
+}
+
+.redesContainer button {
+  background-color: rgb(231, 231, 40);
+  border: none;
+  margin-top: 0.3em;
+  width: 100%;
+  border-radius: .7rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.copy {
+  color: rgb(6, 63, 6);
+  font-style: italic;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.r_icon {
+  color: #08708a;
+  font-style: italic;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+.itemLug {
+  display: inline-block;
+  background-color: rgb(241, 236, 236);
+  color: rgb(54, 52, 52);
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-right: .6rem;
+  margin-bottom: .3rem;
+  font-style: italic;
+  font-size: .8rem;
+}
+
+@media screen and (max-width: 800px) {
+  .containerInfo {
+    flex-direction: column;
+  }
+
+  .mapContainer {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

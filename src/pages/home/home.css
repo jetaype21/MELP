@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+.main {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.m__left {
+  width: 200px;
+}
+
+.m__right {
+  padding: 10px 20px;
+  background-color: #9fbfb3;
+  width: 90%;
+  max-width: 850px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.m__right a {
+  display: block;
+  color: black;
+}
+
+.listRestaurants {
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  border-radius: .5rem;
+  background-color: #c2d4cd;
+  padding: 0.5em;
+  -webkit-box-shadow: 4px 4px 8px -3px rgb(7, 71, 73);
+  -moz-box-shadow: 4px 4px 8px -3px rgb(7, 71, 73);
+  box-shadow: 4px 4px 8px -3px rgb(7, 71, 73);
+}
+
+.m_name {
+  font-weight: bold;
+}
+
+.m_name a {
+  min-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.m_address {
+  color: rgb(104, 100, 100);
+  font-size: 15px;
+  font-style: italic;
+}
+
+.m_state {
+  color: rgb(104, 100, 100);
+}
+
+.lr_right {
+  text-align: right;
+}
+
+.lr_right a {
+  background-color: rgb(212, 212, 14);
+  padding: 0.2rem .6rem;
+  border-radius: .4rem;
+  text-align: center;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: end;
+  gap: .6rem;
+}
+
+.btn{
+  padding: 0.3em .5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
+.btn__prev {
+  background-color: rgb(68, 155, 107);
+}
+
+.btn__next {
+  background-color: rgb(26, 84, 172);
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    margin-left: none;
+    margin-right: none;
+  }
+
+  .listRestaurants {
+    flex-direction: column;
+  }
+}
